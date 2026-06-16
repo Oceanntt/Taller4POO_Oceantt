@@ -1,4 +1,4 @@
-package Taller4;
+package Dominio;
 
 public class Supporter extends Card{
 private int efectos;

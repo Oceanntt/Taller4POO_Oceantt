@@ -1,4 +1,10 @@
-package Taller4;
+package Logica;
+
+import Dominio.Card;
+import Dominio.Energy;
+import Dominio.Item;
+import Dominio.Pokemon;
+import Dominio.Supporter;
 
 public class CardFactory {
 

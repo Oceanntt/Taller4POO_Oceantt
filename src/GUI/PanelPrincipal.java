@@ -1,4 +1,4 @@
-package Taller4;
+package GUI;
 
 import javax.swing.JFrame;
 import javax.swing.JTabbedPane;

@@ -1,4 +1,4 @@
-package Taller4;
+package Dominio;
 
 public class Energy extends Card {
 private String elemento;

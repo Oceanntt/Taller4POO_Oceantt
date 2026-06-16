@@ -1,4 +1,4 @@
-package Taller4;
+package Dominio;
 
 public class Item extends Card {
 private int bon;

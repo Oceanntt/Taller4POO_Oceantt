@@ -1,4 +1,4 @@
-package Taller4;
+package Dominio;
 
 public class Pokemon extends Card{
 private int daño;
