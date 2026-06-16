@@ -2,8 +2,9 @@ package Taller4;
 
 public class APP {
 
-	public APP() {
-		// TODO Auto-generated constructor stub
-	}
+	public static void main(String[] args) {
+		PanelPrincipal ventana = new PanelPrincipal();
 
+        ventana.setVisible(true);
+	}
 }
