@@ -1,5 +1,7 @@
 package Dominio;
 
+import Logica.VisitorCard;
+
 public class Pokemon extends Card{
 private int daño;
 private int cantenergia;
@@ -11,5 +13,15 @@ private int cantenergia;
 		
 		
 	}
-
+	@Override
+	public int calcular(VisitorCard visitor) {
+		return visitor.visitar(this);
+		
+	}
+public int getCantenergia() {
+	return cantenergia;
+}
+public int getDaño() {
+	return daño;
+}
 }

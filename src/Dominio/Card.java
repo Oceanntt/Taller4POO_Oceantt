@@ -1,6 +1,8 @@
 package Dominio;
 
-public class Card {
+import Logica.VisitorCard;
+
+public abstract class Card {
 private String nombre;
 private int rareza;
 
@@ -8,5 +10,12 @@ private int rareza;
 		this.nombre = nombre;
 		this.rareza = rareza;
 	}
-
+	
+	public abstract int calcular(VisitorCard visitor);
+public String getNombre() {
+	return nombre;
+}
+public int getRareza() {
+	return rareza;
+}
 }

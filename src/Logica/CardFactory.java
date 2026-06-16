@@ -21,14 +21,15 @@ public class CardFactory {
 		case "Item":
 			int bon = Integer.parseInt(datos[3]);
 			Item item = new Item(datos[0],rareza,bon);
+			return item;
 			
 		case "Supporter":
 			int efectos = Integer.parseInt(datos[3]);
 			Supporter supporter = new Supporter(datos[0],rareza,efectos);
-			
+			return supporter;
 		case "Energy":
 			Energy energy = new Energy(datos[0],rareza,datos[3]);
-			
+			return energy;
 			
 
 		default:
