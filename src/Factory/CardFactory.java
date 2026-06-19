@@ -1,4 +1,4 @@
-package Logica;
+package Factory;
 
 import Dominio.Card;
 import Dominio.Energy;

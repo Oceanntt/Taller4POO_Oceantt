@@ -7,7 +7,7 @@ public class PanelPrincipal extends JFrame {
 
 	public PanelPrincipal() {
 		setTitle("Cartas TCG");
-		setSize(500,200);
+		setSize(600,400);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
 		JTabbedPane pestañas = new JTabbedPane();

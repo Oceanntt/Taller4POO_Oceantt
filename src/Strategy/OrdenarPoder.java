@@ -1,8 +1,9 @@
-package Logica;
+package Strategy;
 
 import java.util.ArrayList;
 
 import Dominio.Card;
+import Visitor.VisitorPower;
 
 public class OrdenarPoder implements StrategyOrder {
 

@@ -1,6 +1,6 @@
 package Dominio;
 
-import Logica.VisitorCard;
+import Visitor.VisitorCard;
 
 public abstract class Card {
 private String nombre;
@@ -19,3 +19,4 @@ public int getRareza() {
 	return rareza;
 }
 }
+AS

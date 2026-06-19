@@ -1,4 +1,4 @@
-package Logica;
+package Visitor;
 
 import Dominio.Energy;
 import Dominio.Item;

@@ -1,4 +1,4 @@
-package Logica;
+package Strategy;
 
 import java.util.ArrayList;
 

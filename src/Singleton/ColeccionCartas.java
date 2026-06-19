@@ -1,4 +1,4 @@
-package Logica;
+package Singleton;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,6 @@
 package Dominio;
 
-import Logica.VisitorCard;
+import Visitor.VisitorCard;
 
 public class Energy extends Card {
 private String elemento;

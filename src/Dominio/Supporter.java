@@ -1,6 +1,6 @@
 package Dominio;
 
-import Logica.VisitorCard;
+import Visitor.VisitorCard;
 
 public class Supporter extends Card{
 private int efectos;
